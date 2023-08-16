@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>VARIABLES</title>
+</head>
+<body>
+<script type="text/javascript">
+	var s = prompt("Enter the value");
+    var r =parseInt(s);
+	var n=0;
+	while(r>0){
+		k=parseInt(r%10);
+		n=(n*10)+k;
+		r=parseInt(r/10);
+	}	
+	document.write(n);
+	
+	document.write(s.length);
+</script>
+</body>
+</html>
